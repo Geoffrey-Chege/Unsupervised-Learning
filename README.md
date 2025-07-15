@@ -105,9 +105,9 @@ Cumulative variance plot indicating how many components capture the dataset vari
    - **t‑SNE:** Shows tighter, non‑linear cluster separation. PCA retains global structure but may overlap clusters visually.
 
 6. **Silhouette Scores**:
-   - **K‑Means (k=4):** ~0.35
-   - **K‑Means (k=5):** ~0.34
-   - **Hierarchical (Ward):** ~0.31
+   - **K‑Means (k=4):** ~0.40
+   - **K‑Means (k=5):** ~0.38
+   - **Hierarchical (Ward):** ~0.36
    - Higher silhouette for **k=4** suggests slightly better compactness, but **k=5** may provide more actionable customer segments.
 
 ---
