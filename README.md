@@ -38,12 +38,41 @@ We apply the following steps:
 
 Below are the main figures generated in the notebook (saved under `outputs/`):
 
-1. **Pairwise Relationships** ![Pairwise Relationships](outputs/pairwise_relationships.png): Scatterplots showing relationships among Age, Annual Income, and Spending Score.
-2. **Histograms** ![Histograms](outputs/histograms.png): Distribution of each feature.
-3. **Elbow Method** ![kmeans elbow](outputs/elbow_kmeans.png): Inertia vs. number of clusters. I selected **k = 4** based on a noticeable bend at 4; however, a secondary elbow also appears at **k = 5**.
-4. **K‑Means on PCA Projection** ![Pca](outputs/k-means_pca.png): 2D visualization of clusters after reducing to two principal components.
-5. **Dendrogram** ![Dendogram](outputs/dendogram.png): Hierarchical clustering tree using Ward linkage.
-6. **PCA Explained Variance** ![PCA Variance](outputs/pca_variance.png): Cumulative variance plot indicating how many components capture the dataset variance.
+1. **Pairwise Relationships**: 
+
+![Pairwise Relationships](outputs/pairwise_relationships.png)
+
+Scatterplots showing relationships among Age, Annual Income, and Spending Score.
+
+2. **Histograms**:
+
+![Histograms](outputs/histograms.png)
+
+Distribution of each feature.
+
+3. **Elbow Method**:
+
+![kmeans elbow](outputs/elbow_kmeans.png)
+
+Inertia vs. number of clusters. I selected **k = 4** based on a noticeable bend at 4; however, a secondary elbow also appears at **k = 5**.
+
+4. **K‑Means on PCA Projection**: 
+
+![Pca](outputs/k-means_pca.png)
+
+2D visualization of clusters after reducing to two principal components.
+
+5. **Dendrogram**: 
+
+![Dendogram](outputs/dendogram.png)
+
+Hierarchical clustering tree using Ward linkage.
+
+6. **PCA Explained Variance**:
+
+![PCA Variance](outputs/pca_variance.png)
+
+Cumulative variance plot indicating how many components capture the dataset variance.
 
 ---
 
